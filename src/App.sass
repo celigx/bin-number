@@ -23,27 +23,27 @@ svg
   height: 100vh
   margin: 40px
 
-  .binInput
-    width: -webkit-fill-available
-    width: -moz-available
-
-    .binTitle
-      color: #000
-      text-align: center
-
-    input
-      font-size: 18px
-      text-align: center
-      padding: 10px 0
-      width: -webkit-fill-available
-      width: -moz-available
-      border-width: 2px
-      border-radius: 8px
-      margin: 0 0 40px 0
-
   .containerOutput
     width: -webkit-fill-available
     width: -moz-available
+
+    .binInput
+      width: -webkit-fill-available
+      width: -moz-available
+
+      .binTitle
+        color: #000
+        text-align: center
+
+      input
+        font-size: 18px
+        text-align: center
+        padding: 10px 0
+        width: -webkit-fill-available
+        width: -moz-available
+        border-width: 2px
+        border-radius: 8px
+        margin: 0 0 40px 0
 
     .output
       background: #F0F0F0
@@ -53,3 +53,28 @@ svg
       border-radius: 8px
       margin: 0 0 10px 0
       text-transform: uppercase
+
+@media screen and ( min-width: 565px )
+  svg
+    width: auto
+
+@media screen and ( min-width: 768px )
+  .app
+    flex-direction: row
+    max-width: 968px
+    margin: 0 auto
+
+    svg
+      flex: 1
+      max-width: 500px
+      margin: 0 20px
+
+    .containerOutput
+      flex: 1
+      margin: 0 20px
+
+      .binInput
+        margin: 0 0 20px 0
+
+        input
+          margin: 0
