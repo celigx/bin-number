@@ -56,12 +56,13 @@ function App() {
         scheme={binData.scheme}
       />
 
-      <div className="binInput">
-        <h6 className="binTitle">BANK IDENTIFICATION NUMBER (BIN)</h6>
-        <input type="tel" maxLength='6' value={bin} onChange={handleChange} placeholder='Enter the first 6 digits of the card' />
-      </div>
-
       <div className="containerOutput">
+
+        <div className="binInput">
+          <h6 className="binTitle">BANK IDENTIFICATION NUMBER (BIN)</h6>
+          <input type="tel" maxLength='6' value={bin} onChange={handleChange} placeholder='Enter the first 6 digits of the card' />
+        </div>
+        
         <div className="firstRow flex output">
           <div className="country">
             <h6 className="title">COUNTRY</h6>
