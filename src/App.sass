@@ -23,6 +23,9 @@ svg
   height: 100vh
   margin: 40px
 
+  .titleContainer
+    margin: 0 0 40px 0
+
   .containerOutput
     width: -webkit-fill-available
     width: -moz-available
@@ -60,7 +63,8 @@ svg
 
 @media screen and ( min-width: 768px )
   .app
-    flex-direction: row
+    // flex-direction: row
+    justify-content: center
     max-width: 968px
     margin: 0 auto
 
@@ -68,6 +72,9 @@ svg
       flex: 1
       max-width: 500px
       margin: 0 20px
+
+    .cardContainer
+      display: flex
 
     .containerOutput
       flex: 1
