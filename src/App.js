@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.sass';
 import Card from './components/Card';
+import Title from './components/Title';
 
 function App() {
   const [bin, setBin] = useState('');
@@ -49,10 +50,7 @@ function App() {
   return (
     <div className="app">
 
-      <div className="titleContainer">
-        <h1 className="title">BIN CHECKER</h1>
-        <p className="subtext">Use the first 6 digits of any credit or debit card</p>
-      </div>
+      <Title />
 
       <div className="cardContainer">
 
