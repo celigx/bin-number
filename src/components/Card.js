@@ -60,10 +60,16 @@ export default function Card({ bin, flag, country, scheme }) {
 
   // Control card characters length
   const cardNumberLength = () => {
+    // Return specified number of concatenated copies
     const asterisk = '*'.repeat(16)
+    // Remove asterisks based on input length (if input length is 2, remove 2 asterisks)
     const asteriskLength = asterisk.substring(0, asterisk.length - bin.length)
-    
-    return bin + asteriskLength
+    // Concatenate bin and asterisk
+    const binAndAsterisk = bin + asteriskLength
+    // Format output in groups of 4
+    const formatNumber = binAndAsterisk.replace(/(\S{4})(\S{4})(\S{4})(\S{4})/, '$1 $2 $3 $4')
+
+    return formatNumber
   }
 
   return (
