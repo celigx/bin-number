@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.sass';
 import Card from './components/Card';
 import Title from './components/Title';
+import Input from './components/Input';
 
 function App() {
   const [bin, setBin] = useState('');
@@ -42,11 +43,6 @@ function App() {
       })
   }
 
-  // Handle input change
-  const handleChange = (e) => {
-    setBin(e.target.value)
-  }
-
   return (
     <div className="app">
 
@@ -63,10 +59,10 @@ function App() {
 
         <div className="containerOutput">
 
-          <div className="binInput">
-            <h6 className="binTitle">BANK IDENTIFICATION NUMBER (BIN)</h6>
-            <input type="tel" maxLength='6' value={bin} onChange={handleChange} placeholder='Enter the first 6 digits of the card' />
-          </div>
+          <Input
+            bin={bin}
+            setBin={setBin}
+          />
           
           <div className="firstRow flex output">
             <div className="country">
