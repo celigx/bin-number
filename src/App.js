@@ -50,7 +50,7 @@ function App() {
 
       <Title />
 
-      <div className="cardContainer">
+      <div className="binContainer">
 
         <Card 
           bin={bin}
