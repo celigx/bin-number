@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/celigx.github.io/bin-number/static/css/main.416b2da9.chunk.css",
-    "main.js": "/celigx.github.io/bin-number/static/js/main.7411847b.chunk.js",
-    "main.js.map": "/celigx.github.io/bin-number/static/js/main.7411847b.chunk.js.map",
-    "runtime-main.js": "/celigx.github.io/bin-number/static/js/runtime-main.b568c05d.js",
-    "runtime-main.js.map": "/celigx.github.io/bin-number/static/js/runtime-main.b568c05d.js.map",
-    "static/js/2.d7e51563.chunk.js": "/celigx.github.io/bin-number/static/js/2.d7e51563.chunk.js",
-    "static/js/2.d7e51563.chunk.js.map": "/celigx.github.io/bin-number/static/js/2.d7e51563.chunk.js.map",
-    "static/js/3.354b317c.chunk.js": "/celigx.github.io/bin-number/static/js/3.354b317c.chunk.js",
-    "static/js/3.354b317c.chunk.js.map": "/celigx.github.io/bin-number/static/js/3.354b317c.chunk.js.map",
-    "index.html": "/celigx.github.io/bin-number/index.html",
-    "static/css/main.416b2da9.chunk.css.map": "/celigx.github.io/bin-number/static/css/main.416b2da9.chunk.css.map",
-    "static/js/2.d7e51563.chunk.js.LICENSE.txt": "/celigx.github.io/bin-number/static/js/2.d7e51563.chunk.js.LICENSE.txt"
+    "main.css": "/bin-number/static/css/main.416b2da9.chunk.css",
+    "main.js": "/bin-number/static/js/main.7411847b.chunk.js",
+    "main.js.map": "/bin-number/static/js/main.7411847b.chunk.js.map",
+    "runtime-main.js": "/bin-number/static/js/runtime-main.a1de99eb.js",
+    "runtime-main.js.map": "/bin-number/static/js/runtime-main.a1de99eb.js.map",
+    "static/js/2.d7e51563.chunk.js": "/bin-number/static/js/2.d7e51563.chunk.js",
+    "static/js/2.d7e51563.chunk.js.map": "/bin-number/static/js/2.d7e51563.chunk.js.map",
+    "static/js/3.354b317c.chunk.js": "/bin-number/static/js/3.354b317c.chunk.js",
+    "static/js/3.354b317c.chunk.js.map": "/bin-number/static/js/3.354b317c.chunk.js.map",
+    "index.html": "/bin-number/index.html",
+    "static/css/main.416b2da9.chunk.css.map": "/bin-number/static/css/main.416b2da9.chunk.css.map",
+    "static/js/2.d7e51563.chunk.js.LICENSE.txt": "/bin-number/static/js/2.d7e51563.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b568c05d.js",
+    "static/js/runtime-main.a1de99eb.js",
     "static/js/2.d7e51563.chunk.js",
     "static/css/main.416b2da9.chunk.css",
     "static/js/main.7411847b.chunk.js"
